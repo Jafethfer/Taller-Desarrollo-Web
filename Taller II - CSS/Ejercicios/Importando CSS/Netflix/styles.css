@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400&display=swap');
+
+body{
+    background-color: black;
+    margin: 0;
+}
+#background{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.background-wrapper{
+    height: 700px;
+    background-color: black;
+    opacity: 40%;
+}
+nav{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: transparent;
+    width: 100%;
+    display: inline;
+}
+#logo{
+    max-width: 15%;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+#login-btn{
+    background-color: red;
+    padding: .5rem;
+    border: 0;
+    color: white;
+}
+.buttons-wrapper{
+    display: inline;
+    right: 48px;
+    position: absolute;
+    top: 35px;
+}
+#lang-btn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: .5rem;
+    margin-right: 30px;
+}
+.welcome-card{
+    z-index: 1;
+    text-align: center;
+    font-family: 'Martel Sans';
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 18%;
+}
+h1{
+    font-weight: 900;
+    line-height: 50px;
+    font-size: 2.825rem;
+    margin-bottom: 0;
+}
+h2{
+    font-weight: 400;
+}
+p{
+    font-weight: 400;
+}
+#email-input{
+    padding: 20px 0px 20px 10px;
+    width: 40%;
+
+}
+#email-btn{
+    padding: 20px 30px 20px 30px;
+    background-color: red;
+    color: white;
+}
