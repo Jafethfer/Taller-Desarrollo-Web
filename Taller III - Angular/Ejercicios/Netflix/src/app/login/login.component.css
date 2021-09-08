@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400&display=swap');
+
+body{
+  margin: 0;
+}
+#background{
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  opacity: 40%;
+  background-color: black;
+}
+.background-wrapper{
+  height: 100vh;
+  background-color: black;
+}
+nav{
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background-color: transparent;
+  width: 100%;
+  display: inline;
+}
+#logo{
+    max-width: 15%;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+.login-card{
+  position: absolute;
+  height: 100vh;
+  background-color: transparent;
+  max-width: 32vw;
+  top: 0;
+  left: 40vw;
+}
+.login-form{
+  position: relative;
+  top: 200px;
+  background-color: black;
+  opacity: 70%;
+  min-height: 300px;
+  width: 100%;
+  padding: 40px;
+}
+
+
