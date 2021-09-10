@@ -31,12 +31,10 @@ app.post('/validar',function(req,res){
     for(usuario in usuarios){
         if(usuarios[usuario].email==email && usuarios[usuario].password==password){
             res.send('bienvenido, estas registrado!')
-        }else{
-            if(usuario==usuarios.length){
-                res.send('Lo sentimos, no estas registrado.')
-            }
+            return
         }
     }
+    res.send('Lo sentimos, no estas registrado.')
 })
 
 app.post('/agregar',function(req,res){
